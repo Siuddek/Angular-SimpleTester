@@ -1,0 +1,35 @@
+<div class="quizPage" *ngIf = "remainingQuestions && asyncValidation()"> 
+  <div class = "questionPage">
+    {{remainingQuestions[randomNumber].answerContent}}
+  </div>
+
+  <div class="tile" *ngFor = "let answer of remainingQuestions[randomNumber].answers" >
+    <app-answer-space [answer] = "answer" (answerClicked) = "answerClickedParent($event)">
+
+    </app-answer-space>
+  </div>
+
+  <div class="answereInfo" *ngIf = "showAnswereInfo">
+     <div class="goodAnswer" *ngIf = "userInputCorrect">
+      Dobra odpowiedz!
+     </div>
+
+     <div class="wrongAnswer" *ngIf = "!userInputCorrect">
+      Źle! Poprawna odpowiedz to: {{remainingQuestions[previousNumber].correctAnswer}}
+     </div> 
+
+     <div class="stats">
+        Odpowiedzi: {{askedQuestions}} <br>
+        Poprawne: {{correctAnswers}} <br>
+        Wynik: {{score.toPrecision(4)}}% <br>
+     </div>
+
+  </div>
+
+</div>
+
+<!--
+   
+    <app-answer-tile [answersTab] = "getQuestion()">
+  </app-answer-tile>
+-->

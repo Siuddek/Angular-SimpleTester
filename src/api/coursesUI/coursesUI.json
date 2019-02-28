@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "courseName": "Fizyka III semestr",
+    "imgSource": "https://cdn2.iconfinder.com/data/icons/avatars-vol-1-glyph/64/glyph-avatar-albert-einstein-hair-512.png",
+    "authorLink": "https://www.iconfinder.com/icons/1614102/albert_einstein_avatar_avatars_man_scientist_icon",
+    "courseUrl": "/fizyka3"
+  },
+  {
+    "id": 2,
+    "courseName": "Grafika Komputerowa",
+    "imgSource": "https://pbs.twimg.com/media/DJjGHANUEAADO2c.jpg:large",
+    "authorLink": "https://twitter.com/ranjaykrishna/status/907693162625298432",
+    "courseUrl": "/GK"
+  },
+  {
+    "id": 3,
+    "courseName": "Multimedia i Interfejsy",
+    "imgSource": "https://www.shareicon.net/data/512x512/2015/09/24/106337_3d_512x512.png",
+    "authorLink": "https://www.shareicon.net/3d-unity-106337",
+    "courseUrl": "/mii"
+  }
+]

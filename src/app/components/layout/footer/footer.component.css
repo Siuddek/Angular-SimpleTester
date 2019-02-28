@@ -1,0 +1,12 @@
+footer{
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 110%;
+    font-family:  "Century Gothic", sans-serif;
+    text-align: center;
+}

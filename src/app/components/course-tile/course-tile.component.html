@@ -1,0 +1,10 @@
+<div class = "tileContainer">
+    <div class="tile" *ngFor = "let course of courses">
+      {{course.courseName}}
+      <nav>
+        <a [routerLink] = "['/questionPage', course.courseName]">
+          <img [src]="course.imgSource" alt="course.authorLink" class="courseImg">
+        </a>
+      </nav>
+    </div>
+</div>

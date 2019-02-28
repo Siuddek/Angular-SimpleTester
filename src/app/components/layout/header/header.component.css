@@ -1,0 +1,11 @@
+.header{
+    background-color: #315659;
+    color: #eee;
+    text-align: center;
+    padding: 5px;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: Impact, Charcoal, sans-serif
+}
